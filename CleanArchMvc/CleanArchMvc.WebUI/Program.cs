@@ -1,10 +1,14 @@
+using CleanArchMvc.Infra.IoC;
+
 var builder = WebApplication.CreateBuilder(args);
+ConfigurationManager Configuration = builder.Configuration;
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+builder.Services.AddInfrastructure(Configuration);
+
 
 var app = builder.Build();
-
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
 {
