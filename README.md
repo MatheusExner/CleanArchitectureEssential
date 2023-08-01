@@ -27,3 +27,6 @@ Dependencias<br/><br/>
 -> CleanArchMvc.WebUI: Dependencia: Infra.IoC<br/>
 
 ![Alt text](image.png)
+
+
+<b>Autenticação e autorização realizada utilizando ASP .NET Core Identity</b><br/>
