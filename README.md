@@ -28,5 +28,7 @@ Dependencias<br/><br/>
 
 ![Alt text](image.png)
 
+<br/><br/>
 
-<b>Autenticação e autorização realizada utilizando ASP .NET Core Identity</b><br/>
+<h1>Autenticação e autorização</h1><br/>
+-> ASP .NET Core Identity<br/>
