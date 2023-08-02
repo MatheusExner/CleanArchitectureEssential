@@ -1,9 +1,6 @@
 ﻿using CleanArchMvc.Domain.Account;
 using Microsoft.AspNetCore.Identity;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+using System.Security.Claims;
 using System.Threading.Tasks;
 
 namespace CleanArchMvc.Infra.Data.Identity
@@ -12,30 +9,27 @@ namespace CleanArchMvc.Infra.Data.Identity
     {
         private readonly UserManager<ApplicationUser> _userManager;
         private readonly SignInManager<ApplicationUser> _signInManager;
-        public AuthenticateService(UserManager<ApplicationUser> userManager,
-            SignInManager<ApplicationUser> signInManager)
+
+        public AuthenticateService(SignInManager<ApplicationUser> signInManager,
+            UserManager<ApplicationUser> userManager)
         {
-            _userManager = userManager; 
             _signInManager = signInManager;
+            _userManager = userManager;
         }
+
         public async Task<bool> Authenticate(string email, string password)
         {
-            var result = await _signInManager.PasswordSignInAsync(email, password, isPersistent: false, lockoutOnFailure: false);
+            var result = await _signInManager.PasswordSignInAsync(email,
+                password, false, lockoutOnFailure: false);
 
             return result.Succeeded;
         }
-
-        public async Task Logout()
-        {
-            await _signInManager.SignOutAsync();
-        }
-
         public async Task<bool> RegisterUser(string email, string password)
         {
             var applicationUser = new ApplicationUser
             {
+                UserName = email,
                 Email = email,
-                UserName = email
             };
 
             var result = await _userManager.CreateAsync(applicationUser, password);
@@ -45,6 +39,23 @@ namespace CleanArchMvc.Infra.Data.Identity
                 await _signInManager.SignInAsync(applicationUser, isPersistent: false);
             }
             return result.Succeeded;
+        }
+
+        //teste de atribuição de claims a um usuário
+        //public async Task AplicarRoleAdmin (string email)
+        //{
+        //    var usuario = await _userManager.FindByEmailAsync(email);
+        //    await _userManager.AddClaimAsync(usuario, new Claim("Admin", "true"));
+        //}
+        //public async Task RemoverRoleAdmin(string email)
+        //{
+        //    var usuario = await _userManager.FindByEmailAsync(email);
+        //    await _userManager.RemoveClaimAsync(usuario, new Claim("Admin", "true"));
+        //}
+
+        public async Task Logout()
+        {
+            await _signInManager.SignOutAsync();
         }
     }
 }

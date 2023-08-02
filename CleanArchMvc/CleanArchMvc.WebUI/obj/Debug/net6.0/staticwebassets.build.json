@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "xZdNwFv2BJxDwD1KymSmHZ8g6vZmtB8e9soNK1NsQww=",
+  "Hash": "ZlBVK1ySKFv8qWdGjzxFjuFJ8hBGp1k5XQAn6nm522Y=",
   "Source": "CleanArchMvc.WebUI",
   "BasePath": "_content/CleanArchMvc.WebUI",
   "Mode": "Default",
@@ -253,6 +253,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Images\\no_image.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Matheus\\Documents\\GitHub\\CleanArchitectureEssential\\CleanArchMvc\\CleanArchMvc.WebUI\\wwwroot\\Images\\noimage.jpg",
+      "SourceId": "CleanArchMvc.WebUI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Matheus\\Documents\\GitHub\\CleanArchitectureEssential\\CleanArchMvc\\CleanArchMvc.WebUI\\wwwroot\\",
+      "BasePath": "_content/CleanArchMvc.WebUI",
+      "RelativePath": "Images/noimage.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\noimage.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Matheus\\Documents\\GitHub\\CleanArchitectureEssential\\CleanArchMvc\\CleanArchMvc.WebUI\\wwwroot\\Images\\noimage.png",
+      "SourceId": "CleanArchMvc.WebUI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Matheus\\Documents\\GitHub\\CleanArchitectureEssential\\CleanArchMvc\\CleanArchMvc.WebUI\\wwwroot\\",
+      "BasePath": "_content/CleanArchMvc.WebUI",
+      "RelativePath": "Images/noimage.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\noimage.png"
     },
     {
       "Identity": "C:\\Users\\Matheus\\Documents\\GitHub\\CleanArchitectureEssential\\CleanArchMvc\\CleanArchMvc.WebUI\\wwwroot\\js\\site.js",

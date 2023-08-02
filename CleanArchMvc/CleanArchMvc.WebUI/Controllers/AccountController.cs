@@ -1,15 +1,16 @@
 ﻿using CleanArchMvc.Domain.Account;
 using CleanArchMvc.WebUI.ViewModels;
 using Microsoft.AspNetCore.Mvc;
+using System.Threading.Tasks;
 
 namespace CleanArchMvc.WebUI.Controllers
 {
     public class AccountController : Controller
     {
         private readonly IAuthenticate _authentication;
-        public AccountController(IAuthenticate authenticate)
+        public AccountController(IAuthenticate authentication)
         {
-            _authentication = authenticate;
+            _authentication = authentication;
         }
 
         [HttpGet]

@@ -2,7 +2,9 @@
 using CleanArchMvc.Domain.Interfaces;
 using CleanArchMvc.Infra.Data.Context;
 using Microsoft.EntityFrameworkCore;
+using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Threading.Tasks;
 
 namespace CleanArchMvc.Infra.Data.Repositories
@@ -15,31 +17,32 @@ namespace CleanArchMvc.Infra.Data.Repositories
             _categoryContext = context;
         }
 
-        public async Task<Category> CreateAsync(Category category)
+        public async Task<Category> Create(Category category)
         {
             _categoryContext.Add(category);
             await _categoryContext.SaveChangesAsync();
             return category;
         }
 
-        public async Task<Category> GetByIdAsync(int? id)
+        public async Task<Category> GetById(int? id)
         {
-            return await _categoryContext.Categories.FindAsync(id);
+            var category = await _categoryContext.Categories.FindAsync(id);
+            return category;
         }
 
-        public async Task<IEnumerable<Category>> GetCategoriesAsync()
+        public async Task<IEnumerable<Category>> GetCategories()
         {
-            return await _categoryContext.Categories.ToListAsync();
+            return await _categoryContext.Categories.OrderBy(c=> c.Name).ToListAsync();
         }
 
-        public async Task<Category> RemoveAsync(Category category)
+        public async Task<Category> Remove(Category category)
         {
             _categoryContext.Remove(category);
             await _categoryContext.SaveChangesAsync();
             return category;
         }
 
-        public async Task<Category> UpdateAsync(Category category)
+        public async Task<Category> Update(Category category)
         {
             _categoryContext.Update(category);
             await _categoryContext.SaveChangesAsync();

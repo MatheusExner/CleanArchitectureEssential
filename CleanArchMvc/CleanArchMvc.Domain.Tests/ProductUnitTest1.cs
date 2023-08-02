@@ -1,4 +1,4 @@
-using CleanArchMvc.Domain.Entities;
+﻿using CleanArchMvc.Domain.Entities;
 using FluentAssertions;
 using System;
 using Xunit;
@@ -59,6 +59,7 @@ namespace CleanArchMvc.Domain.Tests
             Action action = () => new Product(1, "Product Name", "Product Description", 9.99m, 99, null);
             action.Should().NotThrow<NullReferenceException>();
         }
+
 
         [Fact]
         public void CreateProduct_WithEmptyImageName_NoDomainException()

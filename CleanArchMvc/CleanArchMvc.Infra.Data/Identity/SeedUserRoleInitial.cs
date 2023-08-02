@@ -1,10 +1,6 @@
 ﻿using CleanArchMvc.Domain.Account;
 using Microsoft.AspNetCore.Identity;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace CleanArchMvc.Infra.Data.Identity
 {
@@ -13,29 +9,11 @@ namespace CleanArchMvc.Infra.Data.Identity
         private readonly UserManager<ApplicationUser> _userManager;
         private readonly RoleManager<IdentityRole> _roleManager;
 
-        public SeedUserRoleInitial(UserManager<ApplicationUser> userManager,
-             RoleManager<IdentityRole> roleManager)
+        public SeedUserRoleInitial(RoleManager<IdentityRole> roleManager,
+              UserManager<ApplicationUser> userManager)
         {
             _roleManager = roleManager;
             _userManager = userManager;
-        }
-
-        public void SeedRoles()
-        {
-            if (!_roleManager.RoleExistsAsync("User").Result)
-            {
-                IdentityRole role = new IdentityRole();
-                role.Name = "User";
-                role.NormalizedName = "USER";
-                IdentityResult roleResult = _roleManager.CreateAsync(role).Result;
-            }
-            if (!_roleManager.RoleExistsAsync("Admin").Result)
-            {
-                IdentityRole role = new IdentityRole();
-                role.Name = "Admin";
-                role.NormalizedName = "ADMIN";
-                IdentityResult roleResult = _roleManager.CreateAsync(role).Result;
-            }
         }
 
         public void SeedUsers()
@@ -77,6 +55,25 @@ namespace CleanArchMvc.Infra.Data.Identity
                     _userManager.AddToRoleAsync(user, "Admin").Wait();
                 }
             }
+
         }
+
+        public void SeedRoles()
+        {
+            if (!_roleManager.RoleExistsAsync("User").Result)
+            {
+                IdentityRole role = new IdentityRole();
+                role.Name = "User";
+                role.NormalizedName = "USER";
+                IdentityResult roleResult = _roleManager.CreateAsync(role).Result;
+            }
+            if (!_roleManager.RoleExistsAsync("Admin").Result)
+            {
+                IdentityRole role = new IdentityRole();
+                role.Name = "Admin";
+                role.NormalizedName = "ADMIN";
+                IdentityResult roleResult = _roleManager.CreateAsync(role).Result;
+            }
+        }        
     }
 }

@@ -18,9 +18,6 @@ namespace CleanArchMvc.Infra.Data.Context
         {
             base.OnModelCreating(builder);
             builder.ApplyConfigurationsFromAssembly(typeof(ApplicationDbContext).Assembly);
-            // varre todas as entidades de ApplicationDbContext, sem ser necessario informar um por um, ex:
-            //builder.ApplyConfiguration(new CategoryConfiguration());
-            //builder.ApplyConfiguration(new ProductConfiguration());
         }
     }
 }

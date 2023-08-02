@@ -1,4 +1,4 @@
-using CleanArchMvc.Domain.Validation;
+﻿using CleanArchMvc.Domain.Validation;
 
 namespace CleanArchMvc.Domain.Entities
 {
@@ -56,7 +56,6 @@ namespace CleanArchMvc.Domain.Entities
             Image = image;
 
         }
-
         public int CategoryId { get; set; }
         public Category Category { get; set; }
     }

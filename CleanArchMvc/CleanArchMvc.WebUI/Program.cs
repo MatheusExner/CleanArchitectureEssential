@@ -1,43 +1,20 @@
-using CleanArchMvc.Domain.Account;
-using CleanArchMvc.Infra.IoC;
+using Microsoft.AspNetCore.Hosting;
+using Microsoft.Extensions.Hosting;
 
-var builder = WebApplication.CreateBuilder(args);
-ConfigurationManager Configuration = builder.Configuration;
-
-// Add services to the container.
-builder.Services.AddControllersWithViews();
-builder.Services.AddInfrastructure(Configuration);
-
-
-var app = builder.Build();
-// Configure the HTTP request pipeline.
-if (!app.Environment.IsDevelopment())
+namespace CleanArchMvc.WebUI
 {
-    app.UseExceptionHandler("/Home/Error");
-    // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
-    app.UseHsts();
+    public class Program
+    {
+        public static void Main(string[] args)
+        {
+            CreateHostBuilder(args).Build().Run();
+        }
+
+        public static IHostBuilder CreateHostBuilder(string[] args) =>
+            Host.CreateDefaultBuilder(args)
+                .ConfigureWebHostDefaults(webBuilder =>
+                {
+                    webBuilder.UseStartup<Startup>();
+                });
+    }
 }
-
-app.UseHttpsRedirection();
-app.UseStaticFiles();
-
-app.UseRouting();
-
-using (var scope = app.Services.CreateScope())
-{
-    var serviceProvider = scope.ServiceProvider;
-    var seedUserRoleInitial = serviceProvider.GetRequiredService<ISeedUserRoleInitial>();
-
-    // Call the seeding methods
-    seedUserRoleInitial.SeedRoles();
-    seedUserRoleInitial.SeedUsers();
-}
-
-
-app.UseAuthorization();
-
-app.MapControllerRoute(
-    name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
-
-app.Run();

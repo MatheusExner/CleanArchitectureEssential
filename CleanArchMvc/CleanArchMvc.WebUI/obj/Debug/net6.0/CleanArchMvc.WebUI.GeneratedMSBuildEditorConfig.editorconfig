@@ -11,7 +11,7 @@ build_property.RootNamespace = CleanArchMvc.WebUI
 build_property.ProjectDir = C:\Users\Matheus\Documents\GitHub\CleanArchitectureEssential\CleanArchMvc\CleanArchMvc.WebUI\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
-build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = true
 build_property.MSBuildProjectDirectory = C:\Users\Matheus\Documents\GitHub\CleanArchitectureEssential\CleanArchMvc\CleanArchMvc.WebUI
 build_property._RazorSourceGeneratorDebug = 
 

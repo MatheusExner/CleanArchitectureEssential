@@ -1,96 +1,33 @@
 ﻿++Solução 'CleanArchMvc' ‎(6 de 6 projetos)
-i:{00000000-0000-0000-0000-000000000000}:CleanArchMvc.sln
-++CleanArchMvc.Infra.IoC
-i:{00000000-0000-0000-0000-000000000000}:CleanArchMvc.Infra.IoC
-i:{97a4bf3d-fb7e-4a5f-9563-3d5e397d9ee4}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.infra.ioc\bin\debug\net6.0\cleanarchmvc.infra.ioc.dll
-++Dependências
-i:{180e9639-41d7-436f-9f6b-5f90b3878af4}:>512
-i:{2d5e1a65-b391-468c-a7dc-a089d3dcf57e}:>664
-i:{5a4ff204-cb83-4c89-ac6f-15979de6f738}:>665
-i:{0cee7930-12fa-4b9d-9f90-c58eda250759}:>513
-i:{886dd904-b5af-414e-a412-c51452435c7a}:>908
-i:{97a4bf3d-fb7e-4a5f-9563-3d5e397d9ee4}:>1153
-++Analisadores
-i:{180e9639-41d7-436f-9f6b-5f90b3878af4}:analisadores
-i:{2d5e1a65-b391-468c-a7dc-a089d3dcf57e}:analisadores
-i:{5a4ff204-cb83-4c89-ac6f-15979de6f738}:analisadores
-i:{0cee7930-12fa-4b9d-9f90-c58eda250759}:analisadores
-i:{886dd904-b5af-414e-a412-c51452435c7a}:analisadores
-i:{97a4bf3d-fb7e-4a5f-9563-3d5e397d9ee4}:analisadores
-++Estruturas
-i:{180e9639-41d7-436f-9f6b-5f90b3878af4}:estruturas
-i:{2d5e1a65-b391-468c-a7dc-a089d3dcf57e}:estruturas
-i:{5a4ff204-cb83-4c89-ac6f-15979de6f738}:estruturas
-i:{0cee7930-12fa-4b9d-9f90-c58eda250759}:estruturas
-i:{886dd904-b5af-414e-a412-c51452435c7a}:estruturas
-i:{97a4bf3d-fb7e-4a5f-9563-3d5e397d9ee4}:estruturas
-++Pacotes
-i:{180e9639-41d7-436f-9f6b-5f90b3878af4}:pacotes
-i:{5a4ff204-cb83-4c89-ac6f-15979de6f738}:pacotes
-i:{0cee7930-12fa-4b9d-9f90-c58eda250759}:pacotes
-i:{886dd904-b5af-414e-a412-c51452435c7a}:pacotes
-++AutoMapper.Extensions.Microsoft.DependencyInjection (12.0.1)
-i:{180e9639-41d7-436f-9f6b-5f90b3878af4}:>1279
-++MediatR.Extensions.Microsoft.DependencyInjection (11.0.0)
-i:{180e9639-41d7-436f-9f6b-5f90b3878af4}:>1282
-++Projetos
-i:{180e9639-41d7-436f-9f6b-5f90b3878af4}:projetos
-i:{5a4ff204-cb83-4c89-ac6f-15979de6f738}:projetos
-i:{0cee7930-12fa-4b9d-9f90-c58eda250759}:projetos
-i:{886dd904-b5af-414e-a412-c51452435c7a}:projetos
-i:{97a4bf3d-fb7e-4a5f-9563-3d5e397d9ee4}:projetos
-++DependencyInjection.cs
-i:{180e9639-41d7-436f-9f6b-5f90b3878af4}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.infra.ioc\dependencyinjection.cs
-++Microsoft.CodeAnalysis.CSharp.NetAnalyzers
-i:{180e9639-41d7-436f-9f6b-5f90b3878af4}:c:\program files\dotnet\sdk\6.0.120\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
-i:{2d5e1a65-b391-468c-a7dc-a089d3dcf57e}:c:\program files\dotnet\sdk\6.0.120\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
-i:{5a4ff204-cb83-4c89-ac6f-15979de6f738}:c:\program files\dotnet\sdk\6.0.120\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
-i:{0cee7930-12fa-4b9d-9f90-c58eda250759}:c:\program files\dotnet\sdk\6.0.120\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
-i:{886dd904-b5af-414e-a412-c51452435c7a}:c:\program files\dotnet\sdk\6.0.120\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
-i:{97a4bf3d-fb7e-4a5f-9563-3d5e397d9ee4}:c:\program files\dotnet\sdk\6.0.120\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
-++Microsoft.CodeAnalysis.NetAnalyzers
-i:{180e9639-41d7-436f-9f6b-5f90b3878af4}:c:\program files\dotnet\sdk\6.0.120\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
-i:{2d5e1a65-b391-468c-a7dc-a089d3dcf57e}:c:\program files\dotnet\sdk\6.0.120\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
-i:{5a4ff204-cb83-4c89-ac6f-15979de6f738}:c:\program files\dotnet\sdk\6.0.120\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
-i:{0cee7930-12fa-4b9d-9f90-c58eda250759}:c:\program files\dotnet\sdk\6.0.120\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
-i:{886dd904-b5af-414e-a412-c51452435c7a}:c:\program files\dotnet\sdk\6.0.120\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
-i:{97a4bf3d-fb7e-4a5f-9563-3d5e397d9ee4}:c:\program files\dotnet\sdk\6.0.120\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
-++Microsoft.EntityFrameworkCore.Analyzers
-i:{180e9639-41d7-436f-9f6b-5f90b3878af4}:c:\users\matheus\.nuget\packages\microsoft.entityframeworkcore.analyzers\7.0.9\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
-i:{0cee7930-12fa-4b9d-9f90-c58eda250759}:c:\users\matheus\.nuget\packages\microsoft.entityframeworkcore.analyzers\7.0.9\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
-i:{97a4bf3d-fb7e-4a5f-9563-3d5e397d9ee4}:c:\users\matheus\.nuget\packages\microsoft.entityframeworkcore.analyzers\7.0.9\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
-++Microsoft.Extensions.Logging.Generators
-i:{180e9639-41d7-436f-9f6b-5f90b3878af4}:c:\users\matheus\.nuget\packages\microsoft.extensions.logging.abstractions\7.0.0\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
-i:{0cee7930-12fa-4b9d-9f90-c58eda250759}:c:\users\matheus\.nuget\packages\microsoft.extensions.logging.abstractions\7.0.0\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
-i:{97a4bf3d-fb7e-4a5f-9563-3d5e397d9ee4}:c:\users\matheus\.nuget\packages\microsoft.extensions.logging.abstractions\7.0.0\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
-++System.Text.Json.SourceGeneration
-i:{180e9639-41d7-436f-9f6b-5f90b3878af4}:c:\users\matheus\.nuget\packages\system.text.json\7.0.0\analyzers\dotnet\roslyn4.0\cs\system.text.json.sourcegeneration.dll
-i:{2d5e1a65-b391-468c-a7dc-a089d3dcf57e}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.20\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
-i:{5a4ff204-cb83-4c89-ac6f-15979de6f738}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.20\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
-i:{0cee7930-12fa-4b9d-9f90-c58eda250759}:c:\users\matheus\.nuget\packages\system.text.json\7.0.0\analyzers\dotnet\roslyn4.0\cs\system.text.json.sourcegeneration.dll
-i:{886dd904-b5af-414e-a412-c51452435c7a}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.20\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
-i:{97a4bf3d-fb7e-4a5f-9563-3d5e397d9ee4}:c:\users\matheus\.nuget\packages\system.text.json\7.0.0\analyzers\dotnet\roslyn4.0\cs\system.text.json.sourcegeneration.dll
-++Microsoft.NETCore.App
-i:{180e9639-41d7-436f-9f6b-5f90b3878af4}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.infra.ioc\microsoft.netcore.app
-i:{2d5e1a65-b391-468c-a7dc-a089d3dcf57e}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.domain\microsoft.netcore.app
-i:{5a4ff204-cb83-4c89-ac6f-15979de6f738}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.application\microsoft.netcore.app
-i:{0cee7930-12fa-4b9d-9f90-c58eda250759}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.infra.data\microsoft.netcore.app
-i:{886dd904-b5af-414e-a412-c51452435c7a}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.domain.tests\microsoft.netcore.app
-i:{97a4bf3d-fb7e-4a5f-9563-3d5e397d9ee4}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.webui\microsoft.netcore.app
-++CleanArchMvc.Application
-i:{180e9639-41d7-436f-9f6b-5f90b3878af4}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.application\cleanarchmvc.application.csproj
-i:{00000000-0000-0000-0000-000000000000}:CleanArchMvc.Application
 ++CleanArchMvc.Domain
-i:{180e9639-41d7-436f-9f6b-5f90b3878af4}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.domain\cleanarchmvc.domain.csproj
 i:{00000000-0000-0000-0000-000000000000}:CleanArchMvc.Domain
-i:{5a4ff204-cb83-4c89-ac6f-15979de6f738}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.domain\cleanarchmvc.domain.csproj
 i:{0cee7930-12fa-4b9d-9f90-c58eda250759}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.domain\bin\debug\net6.0\cleanarchmvc.domain.dll
+i:{180e9639-41d7-436f-9f6b-5f90b3878af4}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.domain\cleanarchmvc.domain.csproj
 i:{886dd904-b5af-414e-a412-c51452435c7a}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.domain\bin\debug\net6.0\cleanarchmvc.domain.dll
-++CleanArchMvc.Infra.Data
-i:{180e9639-41d7-436f-9f6b-5f90b3878af4}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.infra.data\cleanarchmvc.infra.data.csproj
-i:{00000000-0000-0000-0000-000000000000}:CleanArchMvc.Infra.Data
+i:{5a4ff204-cb83-4c89-ac6f-15979de6f738}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.domain\cleanarchmvc.domain.csproj
+++Dependências
+i:{2d5e1a65-b391-468c-a7dc-a089d3dcf57e}:>408
+i:{0cee7930-12fa-4b9d-9f90-c58eda250759}:>406
+i:{180e9639-41d7-436f-9f6b-5f90b3878af4}:>407
+i:{886dd904-b5af-414e-a412-c51452435c7a}:>841
+i:{5a4ff204-cb83-4c89-ac6f-15979de6f738}:>409
+i:{97a4bf3d-fb7e-4a5f-9563-3d5e397d9ee4}:>1247
+i:{7ff28d87-7b22-4980-8c41-60f0cd6005c9}:>1555
+++Account
+i:{2d5e1a65-b391-468c-a7dc-a089d3dcf57e}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.domain\account\
+i:{97a4bf3d-fb7e-4a5f-9563-3d5e397d9ee4}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.webui\views\account\
+++IAuthenticate.cs
+i:{2d5e1a65-b391-468c-a7dc-a089d3dcf57e}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.domain\account\iauthenticate.cs
+++ISeedUserRoleInitial.cs
+i:{2d5e1a65-b391-468c-a7dc-a089d3dcf57e}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.domain\account\iseeduserroleinitial.cs
 ++Entities
 i:{2d5e1a65-b391-468c-a7dc-a089d3dcf57e}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.domain\entities\
+++Category.cs
+i:{2d5e1a65-b391-468c-a7dc-a089d3dcf57e}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.domain\entities\category.cs
+++Entity.cs
+i:{2d5e1a65-b391-468c-a7dc-a089d3dcf57e}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.domain\entities\entity.cs
+++Product.cs
+i:{2d5e1a65-b391-468c-a7dc-a089d3dcf57e}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.domain\entities\product.cs
 ++Interfaces
 i:{2d5e1a65-b391-468c-a7dc-a089d3dcf57e}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.domain\interfaces\
 i:{5a4ff204-cb83-4c89-ac6f-15979de6f738}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.application\interfaces\
@@ -102,69 +39,57 @@ i:{2d5e1a65-b391-468c-a7dc-a089d3dcf57e}:c:\users\matheus\documents\github\clean
 i:{2d5e1a65-b391-468c-a7dc-a089d3dcf57e}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.domain\validation\
 ++DomainExceptionValidation.cs
 i:{2d5e1a65-b391-468c-a7dc-a089d3dcf57e}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.domain\validation\domainexceptionvalidation.cs
-++Category.cs
-i:{2d5e1a65-b391-468c-a7dc-a089d3dcf57e}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.domain\entities\category.cs
-++Entity.cs
-i:{2d5e1a65-b391-468c-a7dc-a089d3dcf57e}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.domain\entities\entity.cs
-++Product.cs
-i:{2d5e1a65-b391-468c-a7dc-a089d3dcf57e}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.domain\entities\product.cs
-++DTO
-i:{5a4ff204-cb83-4c89-ac6f-15979de6f738}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.application\dto\
-++CategoryDTO.cs
-i:{5a4ff204-cb83-4c89-ac6f-15979de6f738}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.application\dto\categorydto.cs
-++ProductDTO.cs
-i:{5a4ff204-cb83-4c89-ac6f-15979de6f738}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.application\dto\productdto.cs
-++ICategoryService.cs
-i:{5a4ff204-cb83-4c89-ac6f-15979de6f738}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.application\interfaces\icategoryservice.cs
-++IProductService.cs
-i:{5a4ff204-cb83-4c89-ac6f-15979de6f738}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.application\interfaces\iproductservice.cs
-++Mappings
-i:{5a4ff204-cb83-4c89-ac6f-15979de6f738}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.application\mappings\
-++DomainToDTOMappingProfile.cs
-i:{5a4ff204-cb83-4c89-ac6f-15979de6f738}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.application\mappings\domaintodtomappingprofile.cs
-++DTOToCommandMappingProfile.cs
-i:{5a4ff204-cb83-4c89-ac6f-15979de6f738}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.application\mappings\dtotocommandmappingprofile.cs
-++Products
-i:{5a4ff204-cb83-4c89-ac6f-15979de6f738}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.application\products\
-i:{97a4bf3d-fb7e-4a5f-9563-3d5e397d9ee4}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.webui\views\products\
-++Commands
-i:{5a4ff204-cb83-4c89-ac6f-15979de6f738}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.application\products\commands\
-++ProductCommand.cs
-i:{5a4ff204-cb83-4c89-ac6f-15979de6f738}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.application\products\commands\productcommand.cs
-++ProductCreateCommand.cs
-i:{5a4ff204-cb83-4c89-ac6f-15979de6f738}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.application\products\commands\productcreatecommand.cs
-++ProductRemoveCommand.cs
-i:{5a4ff204-cb83-4c89-ac6f-15979de6f738}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.application\products\commands\productremovecommand.cs
-++ProductUpdateCommand.cs
-i:{5a4ff204-cb83-4c89-ac6f-15979de6f738}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.application\products\commands\productupdatecommand.cs
-++Handlers
-i:{5a4ff204-cb83-4c89-ac6f-15979de6f738}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.application\products\handlers\
-++GetProductByIdQueryHandler.cs
-i:{5a4ff204-cb83-4c89-ac6f-15979de6f738}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.application\products\handlers\getproductbyidqueryhandler.cs
-++GetProductsQueryHandler.cs
-i:{5a4ff204-cb83-4c89-ac6f-15979de6f738}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.application\products\handlers\getproductsqueryhandler.cs
-++ProductCreateCommandHandler.cs
-i:{5a4ff204-cb83-4c89-ac6f-15979de6f738}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.application\products\handlers\productcreatecommandhandler.cs
-++ProductRemoveCommandHandler.cs
-i:{5a4ff204-cb83-4c89-ac6f-15979de6f738}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.application\products\handlers\productremovecommandhandler.cs
-++ProductUpdateCommandHandler.cs
-i:{5a4ff204-cb83-4c89-ac6f-15979de6f738}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.application\products\handlers\productupdatecommandhandler.cs
-++Queries
-i:{5a4ff204-cb83-4c89-ac6f-15979de6f738}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.application\products\queries\
-++GetProductByIdQuery.cs
-i:{5a4ff204-cb83-4c89-ac6f-15979de6f738}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.application\products\queries\getproductbyidquery.cs
-++GetProductsQuery.cs
-i:{5a4ff204-cb83-4c89-ac6f-15979de6f738}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.application\products\queries\getproductsquery.cs
-++Services
-i:{5a4ff204-cb83-4c89-ac6f-15979de6f738}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.application\services\
-++CategoryService.cs
-i:{5a4ff204-cb83-4c89-ac6f-15979de6f738}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.application\services\categoryservice.cs
-++ProductService.cs
-i:{5a4ff204-cb83-4c89-ac6f-15979de6f738}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.application\services\productservice.cs
-++AutoMapper (12.0.1)
-i:{5a4ff204-cb83-4c89-ac6f-15979de6f738}:>1168
-++MediatR (11.0.0)
-i:{5a4ff204-cb83-4c89-ac6f-15979de6f738}:>1285
+++Analisadores
+i:{2d5e1a65-b391-468c-a7dc-a089d3dcf57e}:analisadores
+i:{0cee7930-12fa-4b9d-9f90-c58eda250759}:analisadores
+i:{180e9639-41d7-436f-9f6b-5f90b3878af4}:analisadores
+i:{886dd904-b5af-414e-a412-c51452435c7a}:analisadores
+i:{5a4ff204-cb83-4c89-ac6f-15979de6f738}:analisadores
+i:{97a4bf3d-fb7e-4a5f-9563-3d5e397d9ee4}:analisadores
+i:{7ff28d87-7b22-4980-8c41-60f0cd6005c9}:analisadores
+++Estruturas
+i:{2d5e1a65-b391-468c-a7dc-a089d3dcf57e}:estruturas
+i:{0cee7930-12fa-4b9d-9f90-c58eda250759}:estruturas
+i:{180e9639-41d7-436f-9f6b-5f90b3878af4}:estruturas
+i:{886dd904-b5af-414e-a412-c51452435c7a}:estruturas
+i:{5a4ff204-cb83-4c89-ac6f-15979de6f738}:estruturas
+i:{97a4bf3d-fb7e-4a5f-9563-3d5e397d9ee4}:estruturas
+i:{7ff28d87-7b22-4980-8c41-60f0cd6005c9}:estruturas
+++Microsoft.CodeAnalysis.CSharp.NetAnalyzers
+i:{2d5e1a65-b391-468c-a7dc-a089d3dcf57e}:c:\program files\dotnet\sdk\6.0.120\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{0cee7930-12fa-4b9d-9f90-c58eda250759}:c:\program files\dotnet\sdk\6.0.120\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{180e9639-41d7-436f-9f6b-5f90b3878af4}:c:\program files\dotnet\sdk\6.0.120\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{886dd904-b5af-414e-a412-c51452435c7a}:c:\program files\dotnet\sdk\6.0.120\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{5a4ff204-cb83-4c89-ac6f-15979de6f738}:c:\program files\dotnet\sdk\6.0.120\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{97a4bf3d-fb7e-4a5f-9563-3d5e397d9ee4}:c:\program files\dotnet\sdk\6.0.120\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{7ff28d87-7b22-4980-8c41-60f0cd6005c9}:c:\program files\dotnet\sdk\6.0.120\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+++Microsoft.CodeAnalysis.NetAnalyzers
+i:{2d5e1a65-b391-468c-a7dc-a089d3dcf57e}:c:\program files\dotnet\sdk\6.0.120\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{0cee7930-12fa-4b9d-9f90-c58eda250759}:c:\program files\dotnet\sdk\6.0.120\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{180e9639-41d7-436f-9f6b-5f90b3878af4}:c:\program files\dotnet\sdk\6.0.120\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{886dd904-b5af-414e-a412-c51452435c7a}:c:\program files\dotnet\sdk\6.0.120\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{5a4ff204-cb83-4c89-ac6f-15979de6f738}:c:\program files\dotnet\sdk\6.0.120\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{97a4bf3d-fb7e-4a5f-9563-3d5e397d9ee4}:c:\program files\dotnet\sdk\6.0.120\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{7ff28d87-7b22-4980-8c41-60f0cd6005c9}:c:\program files\dotnet\sdk\6.0.120\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+++System.Text.Json.SourceGeneration
+i:{2d5e1a65-b391-468c-a7dc-a089d3dcf57e}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.20\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{0cee7930-12fa-4b9d-9f90-c58eda250759}:c:\users\matheus\.nuget\packages\system.text.json\7.0.0\analyzers\dotnet\roslyn4.0\cs\system.text.json.sourcegeneration.dll
+i:{180e9639-41d7-436f-9f6b-5f90b3878af4}:c:\users\matheus\.nuget\packages\system.text.json\7.0.0\analyzers\dotnet\roslyn4.0\cs\system.text.json.sourcegeneration.dll
+i:{886dd904-b5af-414e-a412-c51452435c7a}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.20\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{5a4ff204-cb83-4c89-ac6f-15979de6f738}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.20\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{97a4bf3d-fb7e-4a5f-9563-3d5e397d9ee4}:c:\users\matheus\.nuget\packages\system.text.json\7.0.0\analyzers\dotnet\roslyn4.0\cs\system.text.json.sourcegeneration.dll
+i:{7ff28d87-7b22-4980-8c41-60f0cd6005c9}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.20\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+++Microsoft.NETCore.App
+i:{2d5e1a65-b391-468c-a7dc-a089d3dcf57e}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.domain\microsoft.netcore.app
+i:{0cee7930-12fa-4b9d-9f90-c58eda250759}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.infra.data\microsoft.netcore.app
+i:{180e9639-41d7-436f-9f6b-5f90b3878af4}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.infra.ioc\microsoft.netcore.app
+i:{886dd904-b5af-414e-a412-c51452435c7a}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.domain.tests\microsoft.netcore.app
+i:{5a4ff204-cb83-4c89-ac6f-15979de6f738}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.application\microsoft.netcore.app
+i:{97a4bf3d-fb7e-4a5f-9563-3d5e397d9ee4}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.webui\microsoft.netcore.app
+i:{7ff28d87-7b22-4980-8c41-60f0cd6005c9}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.api\microsoft.netcore.app
+++CleanArchMvc.Infra.Data
+i:{00000000-0000-0000-0000-000000000000}:CleanArchMvc.Infra.Data
+i:{180e9639-41d7-436f-9f6b-5f90b3878af4}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.infra.data\cleanarchmvc.infra.data.csproj
 ++Context
 i:{0cee7930-12fa-4b9d-9f90-c58eda250759}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.infra.data\context\
 ++ApplicationDbContext.cs
@@ -177,12 +102,20 @@ i:{0cee7930-12fa-4b9d-9f90-c58eda250759}:c:\users\matheus\documents\github\clean
 i:{0cee7930-12fa-4b9d-9f90-c58eda250759}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.infra.data\entitiesconfiguration\productconfiguration.cs
 ++Identity
 i:{0cee7930-12fa-4b9d-9f90-c58eda250759}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.infra.data\identity\
+++ApplicationUser.cs
+i:{0cee7930-12fa-4b9d-9f90-c58eda250759}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.infra.data\identity\applicationuser.cs
+++AuthenticateService.cs
+i:{0cee7930-12fa-4b9d-9f90-c58eda250759}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.infra.data\identity\authenticateservice.cs
+++SeedUserRoleInitial.cs
+i:{0cee7930-12fa-4b9d-9f90-c58eda250759}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.infra.data\identity\seeduserroleinitial.cs
 ++Migrations
 i:{0cee7930-12fa-4b9d-9f90-c58eda250759}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.infra.data\migrations\
 ++20230726204355_Inicial.cs
 i:{0cee7930-12fa-4b9d-9f90-c58eda250759}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.infra.data\migrations\20230726204355_inicial.cs
 ++20230726205102_SeedProducts.cs
 i:{0cee7930-12fa-4b9d-9f90-c58eda250759}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.infra.data\migrations\20230726205102_seedproducts.cs
+++20230801184403_AddIdentityTables.cs
+i:{0cee7930-12fa-4b9d-9f90-c58eda250759}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.infra.data\migrations\20230801184403_addidentitytables.cs
 ++ApplicationDbContextModelSnapshot.cs
 i:{0cee7930-12fa-4b9d-9f90-c58eda250759}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.infra.data\migrations\applicationdbcontextmodelsnapshot.cs
 ++Repositories
@@ -191,16 +124,58 @@ i:{0cee7930-12fa-4b9d-9f90-c58eda250759}:c:\users\matheus\documents\github\clean
 i:{0cee7930-12fa-4b9d-9f90-c58eda250759}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.infra.data\repositories\categoryrepository.cs
 ++ProductRepository.cs
 i:{0cee7930-12fa-4b9d-9f90-c58eda250759}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.infra.data\repositories\productrepository.cs
+++Pacotes
+i:{0cee7930-12fa-4b9d-9f90-c58eda250759}:pacotes
+i:{180e9639-41d7-436f-9f6b-5f90b3878af4}:pacotes
+i:{886dd904-b5af-414e-a412-c51452435c7a}:pacotes
+i:{5a4ff204-cb83-4c89-ac6f-15979de6f738}:pacotes
+i:{7ff28d87-7b22-4980-8c41-60f0cd6005c9}:pacotes
+++Projetos
+i:{0cee7930-12fa-4b9d-9f90-c58eda250759}:projetos
+i:{180e9639-41d7-436f-9f6b-5f90b3878af4}:projetos
+i:{886dd904-b5af-414e-a412-c51452435c7a}:projetos
+i:{5a4ff204-cb83-4c89-ac6f-15979de6f738}:projetos
+i:{97a4bf3d-fb7e-4a5f-9563-3d5e397d9ee4}:projetos
+i:{7ff28d87-7b22-4980-8c41-60f0cd6005c9}:projetos
 ++20230726204355_Inicial.Designer.cs
 i:{0cee7930-12fa-4b9d-9f90-c58eda250759}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.infra.data\migrations\20230726204355_inicial.designer.cs
 ++20230726205102_SeedProducts.Designer.cs
 i:{0cee7930-12fa-4b9d-9f90-c58eda250759}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.infra.data\migrations\20230726205102_seedproducts.designer.cs
-++Microsoft.EntityFrameworkCore.Design (7.0.9)
-i:{0cee7930-12fa-4b9d-9f90-c58eda250759}:>1196
-++Microsoft.EntityFrameworkCore.SqlServer (7.0.9)
-i:{0cee7930-12fa-4b9d-9f90-c58eda250759}:>1195
-++Microsoft.EntityFrameworkCore.Tools (7.0.9)
-i:{0cee7930-12fa-4b9d-9f90-c58eda250759}:>1197
+++20230801184403_AddIdentityTables.Designer.cs
+i:{0cee7930-12fa-4b9d-9f90-c58eda250759}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.infra.data\migrations\20230801184403_addidentitytables.designer.cs
+++Microsoft.EntityFrameworkCore.Analyzers
+i:{0cee7930-12fa-4b9d-9f90-c58eda250759}:c:\users\matheus\.nuget\packages\microsoft.entityframeworkcore.analyzers\7.0.9\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+i:{180e9639-41d7-436f-9f6b-5f90b3878af4}:c:\users\matheus\.nuget\packages\microsoft.entityframeworkcore.analyzers\7.0.9\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+i:{97a4bf3d-fb7e-4a5f-9563-3d5e397d9ee4}:c:\users\matheus\.nuget\packages\microsoft.entityframeworkcore.analyzers\7.0.9\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+i:{7ff28d87-7b22-4980-8c41-60f0cd6005c9}:c:\users\matheus\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.0\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+++Microsoft.Extensions.Logging.Generators
+i:{0cee7930-12fa-4b9d-9f90-c58eda250759}:c:\users\matheus\.nuget\packages\microsoft.extensions.logging.abstractions\6.0.0\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+i:{180e9639-41d7-436f-9f6b-5f90b3878af4}:c:\users\matheus\.nuget\packages\microsoft.extensions.logging.abstractions\6.0.0\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+i:{97a4bf3d-fb7e-4a5f-9563-3d5e397d9ee4}:c:\users\matheus\.nuget\packages\microsoft.extensions.logging.abstractions\7.0.0\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+i:{7ff28d87-7b22-4980-8c41-60f0cd6005c9}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.20\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+++Microsoft.AspNetCore.Identity (2.2.0)
+i:{0cee7930-12fa-4b9d-9f90-c58eda250759}:>1339
+++Microsoft.AspNetCore.Identity.EntityFrameworkCore (6.0.0)
+i:{0cee7930-12fa-4b9d-9f90-c58eda250759}:>1387
+++Microsoft.EntityFrameworkCore.Design (6.0.0)
+i:{0cee7930-12fa-4b9d-9f90-c58eda250759}:>1384
+++Microsoft.EntityFrameworkCore.SqlServer (6.0.0)
+i:{0cee7930-12fa-4b9d-9f90-c58eda250759}:>1388
+++Microsoft.EntityFrameworkCore.Tools (6.0.0)
+i:{0cee7930-12fa-4b9d-9f90-c58eda250759}:>1389
+++CleanArchMvc.Infra.IoC
+i:{00000000-0000-0000-0000-000000000000}:CleanArchMvc.Infra.IoC
+i:{97a4bf3d-fb7e-4a5f-9563-3d5e397d9ee4}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.infra.ioc\cleanarchmvc.infra.ioc.csproj
+i:{7ff28d87-7b22-4980-8c41-60f0cd6005c9}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.infra.ioc\cleanarchmvc.infra.ioc.csproj
+++DependencyInjection.cs
+i:{180e9639-41d7-436f-9f6b-5f90b3878af4}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.infra.ioc\dependencyinjection.cs
+++AutoMapper.Extensions.Microsoft.DependencyInjection (12.0.1)
+i:{180e9639-41d7-436f-9f6b-5f90b3878af4}:>1262
+++MediatR.Extensions.Microsoft.DependencyInjection (11.0.0)
+i:{180e9639-41d7-436f-9f6b-5f90b3878af4}:>1265
+++CleanArchMvc.Application
+i:{180e9639-41d7-436f-9f6b-5f90b3878af4}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.application\cleanarchmvc.application.csproj
+i:{00000000-0000-0000-0000-000000000000}:CleanArchMvc.Application
 ++CleanArchMvc.Domain.Tests
 i:{00000000-0000-0000-0000-000000000000}:CleanArchMvc.Domain.Tests
 ++CategoryUnitTest1.cs
@@ -210,38 +185,179 @@ i:{886dd904-b5af-414e-a412-c51452435c7a}:c:\users\matheus\documents\github\clean
 ++xunit.analyzers
 i:{886dd904-b5af-414e-a412-c51452435c7a}:c:\users\matheus\.nuget\packages\xunit.analyzers\0.10.0\analyzers\dotnet\cs\xunit.analyzers.dll
 ++coverlet.collector (3.1.0)
-i:{886dd904-b5af-414e-a412-c51452435c7a}:>1183
+i:{886dd904-b5af-414e-a412-c51452435c7a}:>1290
 ++FluentAssertions (6.11.0)
-i:{886dd904-b5af-414e-a412-c51452435c7a}:>1180
+i:{886dd904-b5af-414e-a412-c51452435c7a}:>1287
 ++Microsoft.NET.Test.Sdk (16.11.0)
-i:{886dd904-b5af-414e-a412-c51452435c7a}:>1179
+i:{886dd904-b5af-414e-a412-c51452435c7a}:>1286
 ++xunit (2.4.1)
-i:{886dd904-b5af-414e-a412-c51452435c7a}:>1181
+i:{886dd904-b5af-414e-a412-c51452435c7a}:>1288
 ++xunit.runner.visualstudio (2.4.3)
-i:{886dd904-b5af-414e-a412-c51452435c7a}:>1182
+i:{886dd904-b5af-414e-a412-c51452435c7a}:>1289
+++DTO
+i:{5a4ff204-cb83-4c89-ac6f-15979de6f738}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.application\dto\
+++Mappings
+i:{5a4ff204-cb83-4c89-ac6f-15979de6f738}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.application\mappings\
+++Products
+i:{5a4ff204-cb83-4c89-ac6f-15979de6f738}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.application\products\
+i:{97a4bf3d-fb7e-4a5f-9563-3d5e397d9ee4}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.webui\views\products\
+++Services
+i:{5a4ff204-cb83-4c89-ac6f-15979de6f738}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.application\services\
+++CategoryDTO.cs
+i:{5a4ff204-cb83-4c89-ac6f-15979de6f738}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.application\dto\categorydto.cs
+++ProductDTO.cs
+i:{5a4ff204-cb83-4c89-ac6f-15979de6f738}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.application\dto\productdto.cs
+++ICategoryService.cs
+i:{5a4ff204-cb83-4c89-ac6f-15979de6f738}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.application\interfaces\icategoryservice.cs
+++IProductService.cs
+i:{5a4ff204-cb83-4c89-ac6f-15979de6f738}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.application\interfaces\iproductservice.cs
+++DomainToDTOMappingProfile.cs
+i:{5a4ff204-cb83-4c89-ac6f-15979de6f738}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.application\mappings\domaintodtomappingprofile.cs
+++DTOToCommandMappingProfile.cs
+i:{5a4ff204-cb83-4c89-ac6f-15979de6f738}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.application\mappings\dtotocommandmappingprofile.cs
+++Commands
+i:{5a4ff204-cb83-4c89-ac6f-15979de6f738}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.application\products\commands\
+++Handlers
+i:{5a4ff204-cb83-4c89-ac6f-15979de6f738}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.application\products\handlers\
+++Queries
+i:{5a4ff204-cb83-4c89-ac6f-15979de6f738}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.application\products\queries\
+++CategoryService.cs
+i:{5a4ff204-cb83-4c89-ac6f-15979de6f738}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.application\services\categoryservice.cs
+++ProductService.cs
+i:{5a4ff204-cb83-4c89-ac6f-15979de6f738}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.application\services\productservice.cs
+++AutoMapper (12.0.1)
+i:{5a4ff204-cb83-4c89-ac6f-15979de6f738}:>1264
+++MediatR (11.0.0)
+i:{5a4ff204-cb83-4c89-ac6f-15979de6f738}:>1263
+++ProductCommand.cs
+i:{5a4ff204-cb83-4c89-ac6f-15979de6f738}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.application\products\commands\productcommand.cs
+++ProductCreateCommand.cs
+i:{5a4ff204-cb83-4c89-ac6f-15979de6f738}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.application\products\commands\productcreatecommand.cs
+++ProductRemoveCommand.cs
+i:{5a4ff204-cb83-4c89-ac6f-15979de6f738}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.application\products\commands\productremovecommand.cs
+++ProductUpdateCommand.cs
+i:{5a4ff204-cb83-4c89-ac6f-15979de6f738}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.application\products\commands\productupdatecommand.cs
+++GetProductByIdQueryHandler.cs
+i:{5a4ff204-cb83-4c89-ac6f-15979de6f738}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.application\products\handlers\getproductbyidqueryhandler.cs
+++GetProductsQueryHandler.cs
+i:{5a4ff204-cb83-4c89-ac6f-15979de6f738}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.application\products\handlers\getproductsqueryhandler.cs
+++ProductCreateCommandHandler.cs
+i:{5a4ff204-cb83-4c89-ac6f-15979de6f738}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.application\products\handlers\productcreatecommandhandler.cs
+++ProductRemoveCommandHandler.cs
+i:{5a4ff204-cb83-4c89-ac6f-15979de6f738}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.application\products\handlers\productremovecommandhandler.cs
+++ProductUpdateCommandHandler.cs
+i:{5a4ff204-cb83-4c89-ac6f-15979de6f738}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.application\products\handlers\productupdatecommandhandler.cs
+++GetProductByIdQuery.cs
+i:{5a4ff204-cb83-4c89-ac6f-15979de6f738}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.application\products\queries\getproductbyidquery.cs
+++GetProductsQuery.cs
+i:{5a4ff204-cb83-4c89-ac6f-15979de6f738}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.application\products\queries\getproductsquery.cs
 ++CleanArchMvc.WebUI
 i:{00000000-0000-0000-0000-000000000000}:CleanArchMvc.WebUI
 ++Connected Services 
-i:{97a4bf3d-fb7e-4a5f-9563-3d5e397d9ee4}:>1154
+i:{97a4bf3d-fb7e-4a5f-9563-3d5e397d9ee4}:>1248
+i:{7ff28d87-7b22-4980-8c41-60f0cd6005c9}:>1556
 ++Properties
 i:{97a4bf3d-fb7e-4a5f-9563-3d5e397d9ee4}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.webui\properties\
-++launchSettings.json
-i:{97a4bf3d-fb7e-4a5f-9563-3d5e397d9ee4}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.webui\properties\launchsettings.json
+i:{7ff28d87-7b22-4980-8c41-60f0cd6005c9}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.api\properties\
 ++wwwroot
 i:{97a4bf3d-fb7e-4a5f-9563-3d5e397d9ee4}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.webui\wwwroot\
+++css
+i:{97a4bf3d-fb7e-4a5f-9563-3d5e397d9ee4}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.webui\wwwroot\css\
+i:{97a4bf3d-fb7e-4a5f-9563-3d5e397d9ee4}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.webui\wwwroot\lib\bootstrap\dist\css\
+++Images
+i:{97a4bf3d-fb7e-4a5f-9563-3d5e397d9ee4}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.webui\wwwroot\images\
+++borracha1.jpg
+i:{97a4bf3d-fb7e-4a5f-9563-3d5e397d9ee4}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.webui\wwwroot\images\borracha1.jpg
+++caderno1.jpg
+i:{97a4bf3d-fb7e-4a5f-9563-3d5e397d9ee4}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.webui\wwwroot\images\caderno1.jpg
+++calculadora1.jpg
+i:{97a4bf3d-fb7e-4a5f-9563-3d5e397d9ee4}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.webui\wwwroot\images\calculadora1.jpg
+++caneta.jpg
+i:{97a4bf3d-fb7e-4a5f-9563-3d5e397d9ee4}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.webui\wwwroot\images\caneta.jpg
+++cartilha1.jpg
+i:{97a4bf3d-fb7e-4a5f-9563-3d5e397d9ee4}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.webui\wwwroot\images\cartilha1.jpg
+++catalog.png
+i:{97a4bf3d-fb7e-4a5f-9563-3d5e397d9ee4}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.webui\wwwroot\images\catalog.png
+++catalogo1.png
+i:{97a4bf3d-fb7e-4a5f-9563-3d5e397d9ee4}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.webui\wwwroot\images\catalogo1.png
+++compasso.png
+i:{97a4bf3d-fb7e-4a5f-9563-3d5e397d9ee4}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.webui\wwwroot\images\compasso.png
+++estojo1.jpg
+i:{97a4bf3d-fb7e-4a5f-9563-3d5e397d9ee4}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.webui\wwwroot\images\estojo1.jpg
+++no_image.jpg
+i:{97a4bf3d-fb7e-4a5f-9563-3d5e397d9ee4}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.webui\wwwroot\images\no_image.jpg
+++js
+i:{97a4bf3d-fb7e-4a5f-9563-3d5e397d9ee4}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.webui\wwwroot\js\
+i:{97a4bf3d-fb7e-4a5f-9563-3d5e397d9ee4}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.webui\wwwroot\lib\bootstrap\dist\js\
+++lib
+i:{97a4bf3d-fb7e-4a5f-9563-3d5e397d9ee4}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.webui\wwwroot\lib\
+++favicon.ico
+i:{97a4bf3d-fb7e-4a5f-9563-3d5e397d9ee4}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.webui\wwwroot\favicon.ico
 ++Controllers
 i:{97a4bf3d-fb7e-4a5f-9563-3d5e397d9ee4}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.webui\controllers\
+i:{7ff28d87-7b22-4980-8c41-60f0cd6005c9}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.api\controllers\
+++AccountController.cs
+i:{97a4bf3d-fb7e-4a5f-9563-3d5e397d9ee4}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.webui\controllers\accountcontroller.cs
 ++CategoriesController.cs
 i:{97a4bf3d-fb7e-4a5f-9563-3d5e397d9ee4}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.webui\controllers\categoriescontroller.cs
+i:{7ff28d87-7b22-4980-8c41-60f0cd6005c9}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.api\controllers\categoriescontroller.cs
 ++HomeController.cs
 i:{97a4bf3d-fb7e-4a5f-9563-3d5e397d9ee4}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.webui\controllers\homecontroller.cs
 ++ProductsController.cs
 i:{97a4bf3d-fb7e-4a5f-9563-3d5e397d9ee4}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.webui\controllers\productscontroller.cs
-++Models
+i:{7ff28d87-7b22-4980-8c41-60f0cd6005c9}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.api\controllers\productscontroller.cs
+++ViewModels
+i:{97a4bf3d-fb7e-4a5f-9563-3d5e397d9ee4}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.webui\viewmodels\
+++LoginViewModel.cs
+i:{97a4bf3d-fb7e-4a5f-9563-3d5e397d9ee4}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.webui\viewmodels\loginviewmodel.cs
+++RegisterViewModel.cs
+i:{97a4bf3d-fb7e-4a5f-9563-3d5e397d9ee4}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.webui\viewmodels\registerviewmodel.cs
 ++Views
 i:{97a4bf3d-fb7e-4a5f-9563-3d5e397d9ee4}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.webui\views\
+++Login.cshtml
+i:{97a4bf3d-fb7e-4a5f-9563-3d5e397d9ee4}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.webui\views\account\login.cshtml
+++Register.cshtml
+i:{97a4bf3d-fb7e-4a5f-9563-3d5e397d9ee4}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.webui\views\account\register.cshtml
 ++Categories
 i:{97a4bf3d-fb7e-4a5f-9563-3d5e397d9ee4}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.webui\views\categories\
+++Home
+i:{97a4bf3d-fb7e-4a5f-9563-3d5e397d9ee4}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.webui\views\home\
+++Shared
+i:{97a4bf3d-fb7e-4a5f-9563-3d5e397d9ee4}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.webui\views\shared\
+++_Layout.cshtml
+i:{97a4bf3d-fb7e-4a5f-9563-3d5e397d9ee4}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.webui\views\shared\_layout.cshtml
+++_LoginPartial.cshtml
+i:{97a4bf3d-fb7e-4a5f-9563-3d5e397d9ee4}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.webui\views\shared\_loginpartial.cshtml
+++_ValidationScriptsPartial.cshtml
+i:{97a4bf3d-fb7e-4a5f-9563-3d5e397d9ee4}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.webui\views\shared\_validationscriptspartial.cshtml
+++_ViewImports.cshtml
+i:{97a4bf3d-fb7e-4a5f-9563-3d5e397d9ee4}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.webui\views\_viewimports.cshtml
+++_ViewStart.cshtml
+i:{97a4bf3d-fb7e-4a5f-9563-3d5e397d9ee4}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.webui\views\_viewstart.cshtml
+++appsettings.json
+i:{97a4bf3d-fb7e-4a5f-9563-3d5e397d9ee4}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.webui\appsettings.json
+i:{7ff28d87-7b22-4980-8c41-60f0cd6005c9}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.api\appsettings.json
+++Program.cs
+i:{97a4bf3d-fb7e-4a5f-9563-3d5e397d9ee4}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.webui\program.cs
+i:{7ff28d87-7b22-4980-8c41-60f0cd6005c9}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.api\program.cs
+++Nenhuma dependência de serviço descoberta
+i:{97a4bf3d-fb7e-4a5f-9563-3d5e397d9ee4}:>1249
+i:{7ff28d87-7b22-4980-8c41-60f0cd6005c9}:>1557
+++launchSettings.json
+i:{97a4bf3d-fb7e-4a5f-9563-3d5e397d9ee4}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.webui\properties\launchsettings.json
+i:{7ff28d87-7b22-4980-8c41-60f0cd6005c9}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.api\properties\launchsettings.json
+++site.css
+i:{97a4bf3d-fb7e-4a5f-9563-3d5e397d9ee4}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.webui\wwwroot\css\site.css
+++site.js
+i:{97a4bf3d-fb7e-4a5f-9563-3d5e397d9ee4}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.webui\wwwroot\js\site.js
+++bootstrap
+i:{97a4bf3d-fb7e-4a5f-9563-3d5e397d9ee4}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.webui\wwwroot\lib\bootstrap\
+++jquery
+i:{97a4bf3d-fb7e-4a5f-9563-3d5e397d9ee4}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.webui\wwwroot\lib\jquery\
+++jquery-validation
+i:{97a4bf3d-fb7e-4a5f-9563-3d5e397d9ee4}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.webui\wwwroot\lib\jquery-validation\
+++jquery-validation-unobtrusive
+i:{97a4bf3d-fb7e-4a5f-9563-3d5e397d9ee4}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.webui\wwwroot\lib\jquery-validation-unobtrusive\
 ++Create.cshtml
 i:{97a4bf3d-fb7e-4a5f-9563-3d5e397d9ee4}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.webui\views\categories\create.cshtml
 i:{97a4bf3d-fb7e-4a5f-9563-3d5e397d9ee4}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.webui\views\products\create.cshtml
@@ -258,70 +374,37 @@ i:{97a4bf3d-fb7e-4a5f-9563-3d5e397d9ee4}:c:\users\matheus\documents\github\clean
 i:{97a4bf3d-fb7e-4a5f-9563-3d5e397d9ee4}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.webui\views\categories\index.cshtml
 i:{97a4bf3d-fb7e-4a5f-9563-3d5e397d9ee4}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.webui\views\home\index.cshtml
 i:{97a4bf3d-fb7e-4a5f-9563-3d5e397d9ee4}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.webui\views\products\index.cshtml
-++Home
-i:{97a4bf3d-fb7e-4a5f-9563-3d5e397d9ee4}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.webui\views\home\
 ++Privacy.cshtml
 i:{97a4bf3d-fb7e-4a5f-9563-3d5e397d9ee4}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.webui\views\home\privacy.cshtml
-++Shared
-i:{97a4bf3d-fb7e-4a5f-9563-3d5e397d9ee4}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.webui\views\shared\
-++_Layout.cshtml
-i:{97a4bf3d-fb7e-4a5f-9563-3d5e397d9ee4}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.webui\views\shared\_layout.cshtml
-++_ValidationScriptsPartial.cshtml
-i:{97a4bf3d-fb7e-4a5f-9563-3d5e397d9ee4}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.webui\views\shared\_validationscriptspartial.cshtml
-++Error.cshtml
-++_ViewImports.cshtml
-i:{97a4bf3d-fb7e-4a5f-9563-3d5e397d9ee4}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.webui\views\_viewimports.cshtml
-++_ViewStart.cshtml
-i:{97a4bf3d-fb7e-4a5f-9563-3d5e397d9ee4}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.webui\views\_viewstart.cshtml
-++appsettings.json
-i:{97a4bf3d-fb7e-4a5f-9563-3d5e397d9ee4}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.webui\appsettings.json
-++Program.cs
-i:{97a4bf3d-fb7e-4a5f-9563-3d5e397d9ee4}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.webui\program.cs
-++Nenhuma dependência de serviço descoberta
-i:{97a4bf3d-fb7e-4a5f-9563-3d5e397d9ee4}:>1155
-++css
-i:{97a4bf3d-fb7e-4a5f-9563-3d5e397d9ee4}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.webui\wwwroot\css\
-i:{97a4bf3d-fb7e-4a5f-9563-3d5e397d9ee4}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.webui\wwwroot\lib\bootstrap\dist\css\
-++js
-i:{97a4bf3d-fb7e-4a5f-9563-3d5e397d9ee4}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.webui\wwwroot\js\
-i:{97a4bf3d-fb7e-4a5f-9563-3d5e397d9ee4}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.webui\wwwroot\lib\bootstrap\dist\js\
-++lib
-i:{97a4bf3d-fb7e-4a5f-9563-3d5e397d9ee4}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.webui\wwwroot\lib\
-++favicon.ico
-i:{97a4bf3d-fb7e-4a5f-9563-3d5e397d9ee4}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.webui\wwwroot\favicon.ico
-++ErrorViewModel.cs
 ++_Layout.cshtml.css
 i:{97a4bf3d-fb7e-4a5f-9563-3d5e397d9ee4}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.webui\views\shared\_layout.cshtml.css
 ++appsettings.Development.json
 i:{97a4bf3d-fb7e-4a5f-9563-3d5e397d9ee4}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.webui\appsettings.development.json
+i:{7ff28d87-7b22-4980-8c41-60f0cd6005c9}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.api\appsettings.development.json
 ++Microsoft.AspNetCore.Analyzers
 i:{97a4bf3d-fb7e-4a5f-9563-3d5e397d9ee4}:c:\program files\dotnet\sdk\6.0.120\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.analyzers.dll
+i:{7ff28d87-7b22-4980-8c41-60f0cd6005c9}:c:\program files\dotnet\sdk\6.0.120\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.analyzers.dll
 ++Microsoft.AspNetCore.App.Analyzers
 i:{97a4bf3d-fb7e-4a5f-9563-3d5e397d9ee4}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.20\analyzers\dotnet\cs\microsoft.aspnetcore.app.analyzers.dll
+i:{7ff28d87-7b22-4980-8c41-60f0cd6005c9}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.20\analyzers\dotnet\cs\microsoft.aspnetcore.app.analyzers.dll
 ++Microsoft.AspNetCore.App.CodeFixes
 i:{97a4bf3d-fb7e-4a5f-9563-3d5e397d9ee4}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.20\analyzers\dotnet\cs\microsoft.aspnetcore.app.codefixes.dll
+i:{7ff28d87-7b22-4980-8c41-60f0cd6005c9}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.20\analyzers\dotnet\cs\microsoft.aspnetcore.app.codefixes.dll
 ++Microsoft.AspNetCore.Components.Analyzers
 i:{97a4bf3d-fb7e-4a5f-9563-3d5e397d9ee4}:c:\program files\dotnet\sdk\6.0.120\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.components.analyzers.dll
+i:{7ff28d87-7b22-4980-8c41-60f0cd6005c9}:c:\program files\dotnet\sdk\6.0.120\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.components.analyzers.dll
 ++Microsoft.AspNetCore.Mvc.Analyzers
 i:{97a4bf3d-fb7e-4a5f-9563-3d5e397d9ee4}:c:\program files\dotnet\sdk\6.0.120\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.mvc.analyzers.dll
+i:{7ff28d87-7b22-4980-8c41-60f0cd6005c9}:c:\program files\dotnet\sdk\6.0.120\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.mvc.analyzers.dll
 ++Microsoft.AspNetCore.Razor.Internal.SourceGenerator.Transport
 i:{97a4bf3d-fb7e-4a5f-9563-3d5e397d9ee4}:c:\program files\dotnet\sdk\6.0.120\sdks\microsoft.net.sdk.razor\source-generators\microsoft.aspnetcore.razor.internal.sourcegenerator.transport.dll
+i:{7ff28d87-7b22-4980-8c41-60f0cd6005c9}:c:\program files\dotnet\sdk\6.0.120\sdks\microsoft.net.sdk.razor\source-generators\microsoft.aspnetcore.razor.internal.sourcegenerator.transport.dll
 ++Microsoft.NET.Sdk.Razor.SourceGenerators
 i:{97a4bf3d-fb7e-4a5f-9563-3d5e397d9ee4}:c:\program files\dotnet\sdk\6.0.120\sdks\microsoft.net.sdk.razor\source-generators\microsoft.net.sdk.razor.sourcegenerators.dll
+i:{7ff28d87-7b22-4980-8c41-60f0cd6005c9}:c:\program files\dotnet\sdk\6.0.120\sdks\microsoft.net.sdk.razor\source-generators\microsoft.net.sdk.razor.sourcegenerators.dll
 ++Microsoft.AspNetCore.App
 i:{97a4bf3d-fb7e-4a5f-9563-3d5e397d9ee4}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.webui\microsoft.aspnetcore.app
-++site.css
-i:{97a4bf3d-fb7e-4a5f-9563-3d5e397d9ee4}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.webui\wwwroot\css\site.css
-++site.js
-i:{97a4bf3d-fb7e-4a5f-9563-3d5e397d9ee4}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.webui\wwwroot\js\site.js
-++bootstrap
-i:{97a4bf3d-fb7e-4a5f-9563-3d5e397d9ee4}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.webui\wwwroot\lib\bootstrap\
-++jquery
-i:{97a4bf3d-fb7e-4a5f-9563-3d5e397d9ee4}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.webui\wwwroot\lib\jquery\
-++jquery-validation
-i:{97a4bf3d-fb7e-4a5f-9563-3d5e397d9ee4}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.webui\wwwroot\lib\jquery-validation\
-++jquery-validation-unobtrusive
-i:{97a4bf3d-fb7e-4a5f-9563-3d5e397d9ee4}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.webui\wwwroot\lib\jquery-validation-unobtrusive\
+i:{7ff28d87-7b22-4980-8c41-60f0cd6005c9}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.api\microsoft.aspnetcore.app
 ++dist
 i:{97a4bf3d-fb7e-4a5f-9563-3d5e397d9ee4}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.webui\wwwroot\lib\bootstrap\dist\
 i:{97a4bf3d-fb7e-4a5f-9563-3d5e397d9ee4}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.webui\wwwroot\lib\jquery\dist\
@@ -439,12 +522,148 @@ i:{97a4bf3d-fb7e-4a5f-9563-3d5e397d9ee4}:c:\users\matheus\documents\github\clean
 i:{97a4bf3d-fb7e-4a5f-9563-3d5e397d9ee4}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.webui\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map
 ++bootstrap.esm.min.js.map
 i:{97a4bf3d-fb7e-4a5f-9563-3d5e397d9ee4}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.webui\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js.map
-++NovaPasta
-++Images
-i:{97a4bf3d-fb7e-4a5f-9563-3d5e397d9ee4}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.webui\wwwroot\images\
-++caneta.jpg
-i:{97a4bf3d-fb7e-4a5f-9563-3d5e397d9ee4}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.webui\wwwroot\images\caneta.jpg
-++compasso.png
-i:{97a4bf3d-fb7e-4a5f-9563-3d5e397d9ee4}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.webui\wwwroot\images\compasso.png
-++no_image.jpg
-i:{97a4bf3d-fb7e-4a5f-9563-3d5e397d9ee4}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.webui\wwwroot\images\no_image.jpg
+++bin
+++Debug
+++net6.0
+++ref
+++CleanArchMvc.Domain.dll
+++CleanArchMvc.Domain.pdb
+++CleanArchMvc.Infra.Data.deps.json
+++CleanArchMvc.Infra.Data.dll
+++CleanArchMvc.Infra.Data.pdb
+++CleanArchMvc.Infra.Data.runtimeconfig.json
+++obj
+++CleanArchMvc.Infra.Data.csproj.nuget.dgspec.json
+++CleanArchMvc.Infra.Data.csproj.nuget.g.props
+++CleanArchMvc.Infra.Data.csproj.nuget.g.targets
+++project.assets.json
+++project.nuget.cache
+++refint
+++.NETCoreApp,Version=v6.0.AssemblyAttributes.cs
+++CleanArchMvc.Infra.Data.AssemblyInfo.cs
+++CleanArchMvc.Infra.Data.AssemblyInfoInputs.cache
+++CleanArchMvc.Infra.Data.assets.cache
+++CleanArchMvc.Infra.Data.csproj.AssemblyReference.cache
+++CleanArchMvc.Infra.Data.csproj.CopyComplete
+++CleanArchMvc.Infra.Data.csproj.CoreCompileInputs.cache
+++CleanArchMvc.Infra.Data.csproj.FileListAbsolute.txt
+++CleanArchMvc.Infra.Data.GeneratedMSBuildEditorConfig.editorconfig
+++CleanArchMvc.Infra.Data.genruntimeconfig.cache
+++CleanArchMvc.Infra.Data.GlobalUsings.g.cs
+++Importações
+++Sdk.props
+++Microsoft.Common.props
+++Microsoft.NET.Sdk.props
+++Microsoft.NuGet.ImportBefore.props
+++NuGet.props
+++Microsoft.NET.Sdk.DefaultItems.props
+++Microsoft.NET.Sdk.ImportWorkloads.props
+++Microsoft.NET.SupportedTargetFrameworks.props
+++Microsoft.NET.SupportedPlatforms.props
+++Microsoft.NET.WindowsSdkSupportedTargetPlatforms.props
+++Microsoft.NET.Sdk.CSharp.props
+++Microsoft.NET.ILLink.props
+++Microsoft.NET.Compatibility.props
+++Microsoft.NET.PackTool.props
+++Microsoft.NET.PackProjectTool.props
+++Microsoft.NET.Sdk.WindowsDesktop.props
+++Microsoft.NET.Windows.props
+++Microsoft.EntityFrameworkCore.Design.props
+++Microsoft.NuGet.props
+++Microsoft.NETCoreSdk.BundledVersions.props
+++Microsoft.NET.Sdk.WindowsDesktop.WindowsForms.props
+++Microsoft.NET.Sdk.WindowsDesktop.WPF.props
+++Microsoft.NET.ILLink.Tasks.props
+++System.Windows.Forms.Analyzers.props
+++Sdk.targets
+++Microsoft.NET.Sdk.BeforeCommon.targets
+++Microsoft.CSharp.targets
+++Microsoft.NET.Sdk.targets
+++Microsoft.NET.Compatibility.targets
+++NuGet.Build.Tasks.Pack.targets
+++Microsoft.NET.DefaultAssemblyInfo.targets
+++Microsoft.NET.DefaultOutputPaths.targets
+++Microsoft.NET.Sdk.ImportPublishProfile.targets
+++Microsoft.NET.TargetFrameworkInference.targets
+++Microsoft.NET.Sdk.ImportWorkloads.targets
+++Microsoft.NET.RuntimeIdentifierInference.targets
+++Microsoft.NET.EolTargetFrameworks.targets
+++Microsoft.NET.NuGetOfflineCache.targets
+++Microsoft.Managed.Before.targets
+++Microsoft.CSharp.CurrentVersion.targets
+++Microsoft.Managed.After.targets
+++Microsoft.NET.Sdk.Common.targets
+++Microsoft.PackageDependencyResolution.targets
+++Microsoft.NET.Sdk.DefaultItems.targets
+++Microsoft.NET.Sdk.FrameworkReferenceResolution.targets
+++Microsoft.NET.Sdk.Shared.targets
+++Microsoft.NET.DisableStandardFrameworkResolution.targets
+++Microsoft.NET.DesignerSupport.targets
+++Microsoft.NET.GenerateAssemblyInfo.targets
+++Microsoft.NET.GenerateGlobalUsings.targets
+++Microsoft.NET.GenerateSupportedRuntime.targets
+++Microsoft.NET.ComposeStore.targets
+++Microsoft.NET.CrossGen.targets
+++Microsoft.NET.ObsoleteReferences.targets
+++Microsoft.NET.Publish.targets
+++Microsoft.NET.PackTool.targets
+++Microsoft.NET.PackProjectTool.targets
+++Microsoft.NET.PreserveCompilationContext.targets
+++Microsoft.NET.ConflictResolution.targets
+++Microsoft.NET.Sdk.CSharp.targets
+++Microsoft.NET.ILLink.targets
+++Microsoft.NET.Sdk.Analyzers.targets
+++Microsoft.NET.Compatibility.Common.targets
+++WorkloadManifest.targets (C:\Program Files\dotnet\sdk-manifests\6.0.100\microsoft.net.sdk.android)
+++WorkloadManifest.targets (C:\Program Files\dotnet\sdk-manifests\6.0.100\microsoft.net.sdk.ios)
+++WorkloadManifest.targets (C:\Program Files\dotnet\sdk-manifests\6.0.100\microsoft.net.sdk.maccatalyst)
+++WorkloadManifest.targets (C:\Program Files\dotnet\sdk-manifests\6.0.100\microsoft.net.sdk.macos)
+++WorkloadManifest.targets (C:\Program Files\dotnet\sdk-manifests\6.0.100\microsoft.net.sdk.maui)
+++WorkloadManifest.targets (C:\Program Files\dotnet\sdk-manifests\6.0.100\microsoft.net.sdk.tvos)
+++WorkloadManifest.targets (C:\Program Files\dotnet\sdk-manifests\6.0.100\microsoft.net.workload.emscripten)
+++WorkloadManifest.targets (C:\Program Files\dotnet\sdk-manifests\6.0.100\microsoft.net.workload.mono.toolchain)
+++Microsoft.CSharp.Core.targets
+++Microsoft.CSharp.DesignTime.targets
+++Microsoft.Common.targets
+++Microsoft.ServiceModel.targets
+++Microsoft.NET.Sdk.DefaultItems.Shared.targets
+++Microsoft.NETCoreSdk.BundledCliTools.props
+++Microsoft.NET.DefaultPackageConflictOverrides.targets
+++Microsoft.CodeAnalysis.NetAnalyzers.props
+++Microsoft.CodeAnalysis.NetAnalyzers.targets
+++Microsoft.Managed.Core.targets
+++Microsoft.Managed.DesignTime.targets
+++Microsoft.Common.CurrentVersion.targets
+++Microsoft.Managed.Core.CurrentVersions.targets
+++Microsoft.NET.props
+++Microsoft.CodeAnalysis.targets
+++Microsoft.Xaml.targets
+++Microsoft.WorkflowBuildExtensions.targets
+++Microsoft.TeamTest.targets
+++NuGet.targets
+++Microsoft.Docker.ImportAfter.targets
+++Microsoft.NET.Build.Extensions.targets
+++Microsoft.NuGet.ImportAfter.targets
+++Microsoft.VisualStudio.Azure.Fabric.ServiceProject.ImportAfter.targets
+++Microsoft.Web.ImportAfter.targets
+++Microsoft.Docker.targets
+++Microsoft.VisualStudio.Azure.Fabric.ServiceProject.targets
+++Solução 'CleanArchMvc' ‎(7 de 7 projetos)
+i:{00000000-0000-0000-0000-000000000000}:CleanArchMvc.sln
+++CleanArchMvc.API
+i:{00000000-0000-0000-0000-000000000000}:CleanArchMvc.API
+++WeatherForecast.cs
+++WeatherForecastController.cs
+++C:\Program Files\dotnet\sdk\6.0.120\Sdks\Microsoft.NET.Sdk.Web\analyzers\cs\Microsoft.AspNetCore.Analyzers.dll
+++C:\Program Files\dotnet\sdk\6.0.120\Sdks\Microsoft.NET.Sdk.Web\analyzers\cs\Microsoft.AspNetCore.Components.Analyzers.dll
+++C:\Program Files\dotnet\sdk\6.0.120\Sdks\Microsoft.NET.Sdk.Web\analyzers\cs\Microsoft.AspNetCore.Mvc.Analyzers.dll
+++C:\Program Files\dotnet\sdk\6.0.120\Sdks\Microsoft.NET.Sdk\targets\..\analyzers\Microsoft.CodeAnalysis.CSharp.NetAnalyzers.dll
+++C:\Program Files\dotnet\sdk\6.0.120\Sdks\Microsoft.NET.Sdk\targets\..\analyzers\Microsoft.CodeAnalysis.NetAnalyzers.dll
+++Swashbuckle.AspNetCore (6.5.0)
+i:{7ff28d87-7b22-4980-8c41-60f0cd6005c9}:>1568
+++DependencyInjection - Cópia.cs
+++DependencyInjectionAPI.cs
+i:{180e9639-41d7-436f-9f6b-5f90b3878af4}:c:\users\matheus\documents\github\cleanarchitectureessential\cleanarchmvc\cleanarchmvc.infra.ioc\dependencyinjectionapi.cs
+++Newtonsoft.Json (13.0.3)
+++Microsoft.AspNetCore.Mvc.NewtonsoftJson (6.0.20)
+i:{7ff28d87-7b22-4980-8c41-60f0cd6005c9}:>1815

@@ -7,7 +7,7 @@ namespace CleanArchMvc.Domain.Tests
 {
     public class CategoryUnitTest1
     {
-        [Fact(DisplayName = "Create Category With Valid State")]
+        [Fact(DisplayName ="Create Category With Valid State")]
         public void CreateCategory_WithValidParameters_ResultObjectValidState()
         {
             Action action = () => new Category(1, "Category Name ");
@@ -21,7 +21,7 @@ namespace CleanArchMvc.Domain.Tests
             Action action = () => new Category(-1, "Category Name ");
             action.Should()
                 .Throw<CleanArchMvc.Domain.Validation.DomainExceptionValidation>()
-                 .WithMessage("Invalid Id");
+                 .WithMessage("Invalid Id value.");
         }
 
         [Fact]
@@ -49,6 +49,5 @@ namespace CleanArchMvc.Domain.Tests
             action.Should()
                 .Throw<CleanArchMvc.Domain.Validation.DomainExceptionValidation>();
         }
-
     }
 }
